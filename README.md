@@ -12,19 +12,19 @@ the lowest level is hardware which consists of physical devices such as ICs, cat
 + machine language
 + michroarchitecture
 + physical devices
-</br> 
 
 
 #### shell
 + is the interface between end user and kernel and its duty is to interprete user commands to into understandable system calls for kernel.
 + in old operating systems like MS-DOS shell was about text commands. Howerever, today there are both text and graphical shells
 + shell is located at User space, in contrary kernel is located at kernel space
-</br>
 
 
 #### systemcall
 + as defined it's a method to get services from the kernel
-+ the picture below simply shows how a system call works:
++ the picture below simply shows how a system call works: 
+</br>
+
 ![image](https://user-images.githubusercontent.com/56467180/133322681-a4ef9d65-93fe-49e8-8e8a-8647fcd519ac.png)
 
 ##### steps for adding the systemcall and compiling the kernel
