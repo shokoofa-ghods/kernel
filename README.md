@@ -54,7 +54,6 @@ vim mysyscall.c
 #include <linux/syscalls.h>
 
 SYSCALL_DEFINE0(mysyscall)
-
 {
     printk("This is my attempt for a basic syscall.\n");
     return 0;
